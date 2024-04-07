@@ -1,0 +1,48 @@
+1.Can the length of an array be changed after its creation in Java? 
+a) Yes, by using the resize() method 
+
+b) Yes, by using the length property 
+
+c) No, the length of an array is fixed after creation 
+
+d) No, arrays in Java have a fixed length
+
+2. How many of the following are legal declarations?
+[]double lion;
+double[] tiger;
+double bear[];
+a) None 
+b) One 
+c) Two 
+d) Three
+
+3. What will be the output of the following Java code?
+    int arr[] = new int [5];
+    System.out.print(arr);
+a) 0
+b) value stored in arr[0]
+c) 00000
+d) Class name@ hashcode in hexadecimal form
+
+4.What is a possible output of the following code?
+String[] strings = new String[2];
+System.out.println(strings);
+a) [null, null]
+
+b) [,]
+
+c) [Ljava.lang.String;@74a14482
+
+d) None of the above
+
+5.What does the following output?
+String[] os = new String[] { "Mac", "Linux", "Windows" };
+Arrays.sort(os);
+System.out.println(Arrays.binarySearch(os, "Mac"));
+a) 0
+
+b) 1
+
+c) 2
+
+d) The output is not defined.
